@@ -1,0 +1,125 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2024-08-12T16:51:58.791Z",
+    "end": "2024-08-12T16:52:19.751Z",
+    "duration": 20960,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "333c7c74-e9aa-431e-95d7-d323328eb8ff",
+      "title": "",
+      "fullFile": "cypress/e2e/musalasoft-tests/musalasoft-functionality.cy.js",
+      "file": "cypress/e2e/musalasoft-tests/musalasoft-functionality.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "db41594d-dcc7-40a1-859a-95bda19220bb",
+          "title": "Testing basic functionalities on Musalasoft web page ",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Testing five diferent users with different wrong format emails receive the correct error message ",
+              "fullTitle": "Testing basic functionalities on Musalasoft web page  Testing five diferent users with different wrong format emails receive the correct error message ",
+              "timedOut": null,
+              "duration": 18086,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "testsuit.contactUsForm();",
+              "err": {},
+              "uuid": "b4954c93-4f2c-4643-b7b1-2ecbc57701c4",
+              "parentUUID": "db41594d-dcc7-40a1-859a-95bda19220bb",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "",
+              "fullTitle": "Testing basic functionalities on Musalasoft web page  ",
+              "timedOut": null,
+              "duration": 2765,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "testsuit.faceBookProfile();",
+              "err": {},
+              "uuid": "0ee88a6c-390a-4f60-be77-eac4459ebcd2",
+              "parentUUID": "db41594d-dcc7-40a1-859a-95bda19220bb",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "b4954c93-4f2c-4643-b7b1-2ecbc57701c4",
+            "0ee88a6c-390a-4f60-be77-eac4459ebcd2"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 20851,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports",
+        "overwrite": false,
+        "html": true,
+        "json": true,
+        "timestamp": "mmddyyyy_HHMMss"
+      },
+      "version": "6.2.0"
+    }
+  }
+}
