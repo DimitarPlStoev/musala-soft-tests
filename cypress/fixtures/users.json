@@ -1,0 +1,7 @@
+[
+    { "name": "Ivan","email": "ivan.email.com", "subject": "test",  "messasge": "Hello" },
+    { "name": "Dimitar","email": "dimitar.email.com", "subject": "test",  "messasge": "Hello" },
+    { "name": "Stefan","email": "stefan.email.com", "subject": "test",  "messasge": "Hello" },
+    { "name": "Ivo","email": "ivo.email.com", "subject": "test",  "messasge": "Hello" },
+    { "name": "Kosta","email": "kosta.mail.com", "subject": "test",  "messasge": "Hello" }
+  ]
