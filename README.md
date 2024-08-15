@@ -17,3 +17,5 @@ Before you begin, ensure you have the following installed:
 6. **Install dependencies** : npm install
 7. **RUN** : npx cypress open 
 8. When Cypress opens its browser, navigate to E2E testing, select the browser(in thes case Chrome), and select wich tests do you want to run
+9. To create a report you have to install mochawesome with this command : npm install --save-dev mochawesome mochawesome-merge mochawesome-report-generator  ,  
+and then run the test with: npx cypress run .  It will create a "reports" folder to show the results after the test run.
